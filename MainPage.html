@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Order Your Food Online</title>
+
+
+</head>
+
+
+<body>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: cursive;
+        }
+        nav{
+            background: #0000ff80 ;
+            height: 75px;
+            width: 100%;
+        }
+        label.box{
+            color:whitesmoke;
+            font-size: 36px;
+            line-height: 80px;
+            padding: 0  100px;
+            font-weight: bold;
+        }
+        nav ul{
+            float: right;
+            margin-right: 20px;
+        }
+        nav ul li{
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5px;
+        }
+        nav ul li a{
+            color:rgb(215, 206, 189);
+            font-size: 18px;
+            text-transform: uppercase;
+            padding: 7px 13px;
+            border-radius: 5px;
+        }
+        a.navBox,a:hover{
+            background-color: rgb(23, 23, 199);
+            transition: 2ms;
+        }
+        .icon{
+            display: flex;
+            align-items: center;
+            padding: 10px 22px;
+            background: var(--main-color);
+            border-radius: 2.5rem;
+        }
+        a.icon1{
+            float: right ;
+            font-size: 50px;
+            color:blue;
+            font-size: 25px;
+            margin-right: 16px;
+            margin-left: 8px;
+            z-index: 10001;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            padding: 10px 22px;
+            background: var(--main-color);
+            border-radius: 2.5rem;
+        }
+        a.icon2{
+            float: right;
+            font-size: 50px;
+            color:blue;
+            font-size: 25px;
+            margin-right: 16px;
+            margin-left: 8px;
+            z-index: 10001;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            padding: 10px 22px;
+            background: var(--main-color);
+            border-radius: 2.5rem;
+
+        }
+        #menu{
+            padding: 25px  0  25px  0;
+        }
+        #section{
+            padding:25px  0  25px  0 ;
+            text-align: center;
+            font-size: 2rem;
+            font-family: monospace;
+        }
+        #menu1{
+            display: flex;
+            padding: 0 100px  0 100px;
+        }
+        #menu3{
+            box-shadow: 2px 2px 2px gray;
+            border: 1px solid gray;
+            background-color: #fff;
+            margin: 10px;
+            padding: 10px;
+            flex: 1;
+
+        }
+        #menu3 h2{
+            background-color: brown;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            font-family: cursive;
+        }
+        #image1{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            padding: 5px;
+            border: 2px solid brown;
+        }
+        #image1 img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .menu2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 5px;
+        }
+    </style>
+
+    <nav>
+
+        <label class="box">Order Your Food Online</label>
+
+        <ul>
+            <li><a class="navBox" href="#">Home</a></li>
+            <li><a href="#">Menu</a></a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+
+    </nav>
+   <header>
+    <div class="icon">
+        <a class="icon1" href="#"><iconify-icon icon="bx:search-alt"></iconify-icon></a>
+        <a class="icon2" href="#"><iconify-icon icon="bx:cart"></iconify-icon></a>
+    </div>
+    </header>
+    
+    <div id="menu">
+        <h1 id="section">Menu</h1>
+        <div id="menu1">
+
+            <div class="menu3">
+            <h2>Americano</h2>
+            <div class="menu2">
+                     <div id="image1">
+                    <img src="Americano.jpg">
+                    </div>
+                    <div>
+                        <h3>Food1</h3>
+                        <h4>5$</h4>
+                    </div>
+                
+            </div>
+            </div>
+            
+            
+        
+           
+            
+            <div class="menu3">
+                <h2>Cappuccino</h2>
+                <div class="menu2">
+                         <div id="image1">
+                        <img src="Cappuccino.jpg">
+                        </div>
+                        <div>
+                            <h3>Food2</h3>
+                            <h4>6$</h4>
+                        </div>
+                    
+                </div>
+                </div>
+                 
+
+
+                <div class="menu3">
+                    <h2>Espresso</h2>
+                    <div class="menu2">
+                             <div id="image1">
+                            <img src="espresso.jpg">
+                            </div>
+                            <div>
+                                <h3>Food3</h3>
+                                <h4>7$</h4>
+                            </div>
+                        
+                    </div>
+                    </div>
+                
+
+                    <div class="menu3">
+                        <h2>Flat White</h2>
+                        <div class="menu2">
+                                 <div id="image1">
+                                <img src="FlatWhite.jpg">
+                                </div>
+                                <div>
+                                    <h3>Food4</h3>
+                                    <h4>8$</h4>
+                                </div>
+                            
+                        </div>
+                        </div>
+
+
+                        <div class="menu3">
+                            <h2>Iced Coffee</h2>
+                            <div class="menu2">
+                                     <div id="image1">
+                                    <img src="icedcoffee.jpg">
+                                    </div>
+                                    <div>
+                                        <h3>Food5</h3>
+                                        <h4>9$</h4>
+                                    </div>
+                                
+                            </div>
+                            </div>
+
+
+                            <div class="menu3">
+                                <h2>Latte</h2>
+                                <div class="menu2">
+                                         <div id="image1">
+                                        <img src="latte.jpg">
+                                        </div>
+                                        <div>
+                                            <h3>Food6</h3>
+                                            <h4>10$</h4>
+                                        </div>
+                                    
+                                </div>
+                                </div>
+
+                        
+
+        </div>
+        
+        
+
+    </div>
+    </tr>
+    </table>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+</body>
+</html>
